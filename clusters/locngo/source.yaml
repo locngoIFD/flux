@@ -1,8 +1,0 @@
-apiVersion: source.toolkit.fluxcd.io/v2
-kind: HelmRepository
-metadata:
-  name: podinfo
-  namespace: locngo
-spec:
-  interval: 5m
-  url: https://stefanprodan.github.io/podinfo
