@@ -9,7 +9,7 @@ spec:
     spec:
       chart: mongodb
       sourceRef:
-        kind: OCIRepository
+        kind: HelmRepository
         name: bitnami
         namespace: flux-system
 
@@ -25,6 +25,6 @@ spec:
     spec:
       chart: rabbitmq
       sourceRef:
-        kind: OCIRepository
+        kind: HelmRepository
         name: bitnami
         namespace: flux-system
