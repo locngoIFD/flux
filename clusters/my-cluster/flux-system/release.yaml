@@ -7,7 +7,7 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: bitnami/mongodb
+      chart: mongodb
       sourceRef:
         kind: HelmRepository
         name: bitnami
@@ -23,7 +23,7 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: bitnami/rabbitmq
+      chart: rabbitmq
       sourceRef:
         kind: HelmRepository
         name: bitnami
