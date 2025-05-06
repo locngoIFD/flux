@@ -16,3 +16,4 @@ spec:
       containers:
       - kind: nginx
         image: nginx:alpine
+        name: nginx
